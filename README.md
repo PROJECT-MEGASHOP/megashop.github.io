@@ -1,2 +1,2 @@
-# tiendavirtual-MEGASHOP.github.io
+# megashop.github.io
 PROYECTO DE  NUESTRA PRIMERA TIENDA VIRTUAL 
