@@ -4,10 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEGA SHOP - Principal</title>
+    <title>MEGASHOP - ¡Todo lo que necesitas en un solo touch!</title>
+
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://kit.fontawesome.com/5f69ad0e9f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
-    <h1>Página en construccion</h1>
-    <p>Loading...</p>
+<body class="bg-rose">
+    <!-- Nav-principal -->  
+    <nav class="navbar navbar-expand-xl navbar-togglable  fixed-top">
+        <div class="container">
+  
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html">
+              <img src="img/logo-rose.png" width="100">
+          </a>
+    
+          <!-- Menu -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Option-menu -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+  
+            <!-- Social -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item-divider">
+                <span class="nav-link">
+                  <span></span>
+                </span>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-facebook"></i> 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-instagram"></i> 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-twitter"></i> 
+                </a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <!-- Search -->
+                <form class="" action="#">
+                <div class="input-group input-group-underlined" style="display: flex !important;"> 
+                  <input class="form-controls form-control-underlined" type="text" placeholder="¿Qué estas buscando?" aria-label="Search" aria-describedby="button-search">
+                  <div class="input-group-append ml-0">
+                    <button class="btn btn-underlined py-0" id="button-search" type="button"> 
+                        <i class="fas fa-search" style="color: #e2e2e2; font-size: 18px;"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+                </li>
+            </ul>
+            
+
+            <!-- Option-menu -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a href="#" class="nav-link">
+                    ACERCA DE
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  PRODUCTOS
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  BLOG/NOTICIA
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  CONTACTANOS
+                </a>
+              </li>
+            </ul>
+
+            <!-- Icons -->
+              <ul class="list-inline mb-0 d-none d-lg-block">
+                <li class="list-inline-item mr-3">
+                    <a class="text-dark text-hover-primary" href="#" data-toggle="modal" data-target="#loginModal">
+                      <i class="far fa-user" style="color: #bbbbbb;"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item mr-3">
+                    <a class="text-dark text-hover-primary position-relative" href="wishlist.html">
+                      <i class="far fa-heart" style="color: #bbbbbb;"></i>   
+                    </a>
+                </li>
+                <li class="list-inline-item position-relative mr-3">
+                    <a class="text-dark text-hover-primary" href="#" data-toggle="modal" data-target="#sidebarCart">
+                      <i class="fas fa-shopping-bag" style="color: #bbbbbb;"></i>
+                    </a>
+                </li>
+              </ul>
+  
+          </div> <!-- / Option-menu -->
+    
+        </div> <!-- / nav-principal-->    
+      </nav>
+
+      <section class="section section-top section-full">
+
+        <!-- Cover -->
+        <div class="bg-cover" style="background-image: url(img/portada1.png);"></div>
+  
+      <!-- Content -->
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-8 col-lg-7">
+
+            <!-- Preheading -->
+            <p class="font-weight-medium text-center text-xs text-uppercase text-white text-muted" data-toggle="animation" data-animation="fadeUp" data-animation-order="0" data-animation-trigger="load">
+              by Simpleqode
+            </p>
+            
+            <!-- Heading -->
+            <h1 class="text-white text-center mb-4" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
+              Landing pages for any occasion
+            </h1>
+
+            <!-- Subheading -->
+            <p class="lead text-white text-muted text-center mb-5" data-toggle="animation" data-animation="fadeUp" data-animation-order="2" data-animation-trigger="load">
+              Incline is set of landing and support pages aimed at helping companies promote new products and business launches.
+            </p>
+
+            <!-- Button -->
+            <p class="text-center mb-0" data-toggle="animation" data-animation="fadeUp" data-animation-order="3" data-animation-trigger="load">
+              <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
+                Purchase now
+              </a>
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
 </body>
 </html>
