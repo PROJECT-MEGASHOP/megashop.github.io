@@ -59,7 +59,7 @@ body{
     margin: 30px 30px;
 }
 .conte .card{
-    height: 200px;
+    height: 100px;
     width: 100%;
     margin-bottom: 120px;
 }
@@ -69,7 +69,7 @@ body{
 }
 .conte .stromtroper img{
     height: 330px;
-    width: 330px;
+    width: 300px;
 }
 .conte .stromtroper{
      background-color: #111;
@@ -82,7 +82,7 @@ body{
 }
 .conte .iron-man img{
     height: 330px;
-    width: 330px;
+    width: 300px;
 }
 .conte .spider-man img{
     height: 330px;
