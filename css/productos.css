@@ -5,13 +5,13 @@ body{
     flex-wrap: wrap;
 }
 .conte{
-    height: 110px;
+    height: 310px;
     width: 25%;
     box-shadow:0 0 7px #111 ;
     margin: 30px 30px;
 }
 .conte .card{
-    height: 100px;
+    height: 300px;
     width: 100%;
     margin-bottom: 170px;
 }
@@ -20,7 +20,7 @@ body{
     display: block;
 }
 .conte .stromtroper img{
-    height: 130px;
+    height: 330px;
     width: 330px;
 }
 .conte .stromtroper{
@@ -33,11 +33,11 @@ body{
     background-color:#B11313;
 }
 .conte .iron-man img{
-    height: 130px;
+    height: 330px;
     width: 130px;
 }
 .conte .spider-man img{
-    height: 130px;
+    height: 330px;
     width: 100px;
 }
 .informacion{
