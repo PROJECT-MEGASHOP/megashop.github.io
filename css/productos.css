@@ -59,9 +59,9 @@ body{
     margin: 30px 30px;
 }
 .conte .card{
-    height: 300px;
+    height: 200px;
     width: 100%;
-    margin-bottom: 170px;
+    margin-bottom: 120px;
 }
 .card img{
     margin: auto;
@@ -82,11 +82,11 @@ body{
 }
 .conte .iron-man img{
     height: 330px;
-    width: 130px;
+    width: 330px;
 }
 .conte .spider-man img{
     height: 330px;
-    width: 100px;
+    width: 300px;
 }
 .informacion{
     height: 80px;
