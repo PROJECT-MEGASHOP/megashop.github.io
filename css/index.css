@@ -239,3 +239,9 @@
     color:white;
     background-color: #e9a963;
 }
+*, *::before, *::after {
+    box-sizing: border-box;   
+}
+.bg-light{
+ background-color:#e9a963 !important;
+}
