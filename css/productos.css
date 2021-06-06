@@ -209,7 +209,7 @@ h1.mid{
     font: size 32px;
     text-align: center;
     font-weight:bold;
-    vertical-align: auto;
+    vertical-align: middle;
 }
 
 }
