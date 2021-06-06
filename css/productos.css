@@ -218,7 +218,11 @@
 
     }
 
- 
+    .body1
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
     .conte1{
         height: 510px;
