@@ -1,4 +1,4 @@
-*{
+head{
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -331,7 +331,7 @@
             margin: 30px 20px;
         }
     }
-    
+
 
 @media (min-width:768px){
     .section-full .container>.row{
