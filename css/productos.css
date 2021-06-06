@@ -205,10 +205,11 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
-h1.center{
+h1.mid{
     font: size 32px;
     text-align: center;
     font-weight:bold;
+    vertical-align: auto;
 }
 
 }
