@@ -212,7 +212,7 @@
       }
      
     .t-stroke-shadow {
-        color: #e8858e;
+        color: rgb(255, 255, 255);
         text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
 
     }
