@@ -219,10 +219,10 @@
     }
 
     .conte{
-        display: center;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+        display: flex;
+        justify-content:right ;
+        align-items: inherit;
+        flex-wrap: inherit;
     }
     .conte{
         height: 510px;
