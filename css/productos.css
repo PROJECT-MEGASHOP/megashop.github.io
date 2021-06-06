@@ -207,13 +207,13 @@
 }
 .bg-2{
 
-        background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+        background: linear-gradient(to right, rgb(214, 214, 214), rgb(247, 187, 151));
 
       }
      
     .t-stroke-shadow {
-        color: rgb(255, 255, 255);
-        text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+        color: rgb(148, 34, 110);
+        text-shadow: -3px 3px #fca2a2, -3px -3px #b11717, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
 
     }
 
