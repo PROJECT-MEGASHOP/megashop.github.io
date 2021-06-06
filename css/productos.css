@@ -39,7 +39,8 @@
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0;
-    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    transition: border-col
+    or 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
 }
 
 .form-controls{
@@ -126,6 +127,8 @@
 .btn.btn-underlined:focus{
     box-shadow:none
 }
+
+
 .input-group-underlined:focus .btn-underlined,.input-group-underlined:hover .btn-underlined{
     border-bottom-color:#e9a963
 }
@@ -203,15 +206,7 @@
     padding-bottom: 5rem;
 }
 
-.bg-cover {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: cover;
-    width: 50%;
+
 }
 
 @media (min-width:768px){
