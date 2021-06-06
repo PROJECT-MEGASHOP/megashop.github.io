@@ -205,14 +205,21 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
-h1.mid{
-    font: size 32px;
-    text-align: center;
-    font-weight:bold;
-    vertical-align: middle;
-}
+.bg-2{
+
+        background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+
+      }
+     
+    .t-stroke-shadow {
+        color: #e8858e;
+        text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+
+    }
+
 
 }
+
 
 @media (min-width:768px){
     .section-full .container>.row{
