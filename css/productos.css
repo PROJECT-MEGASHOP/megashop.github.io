@@ -331,11 +331,7 @@
             margin: 30px 20px;
         }
     }
-
-
-}
-
-
+    
 @media (min-width:768px){
     .section-full .container>.row{
         min-height:calc(100vh - 7.5rem * 2)
