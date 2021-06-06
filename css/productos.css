@@ -224,13 +224,13 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    .conte1{
+    .conte{
         height: 510px;
         width: 25%;
         box-shadow:0 0 7px #111 ;
         margin: 30px 30px;
     }
-    .conte1 .card{
+    .conte .card{
         height: 200px;
         width: 100%;
         margin-bottom: 170px;
@@ -239,24 +239,24 @@
         margin: auto;
         display: block;
     }
-    .conte1 .stromtroper img{
+    .conte .stromtroper img{
         height: 330px;
         width: 330px;
     }
-    .conte1 .stromtroper{
+    .conte .stromtroper{
          background-color: #111;
     }
-    .conte1 .iron-man{
+    .conte .iron-man{
         background-color: #6A0C0B;
     }
-    .conte1 .spider-man{
+    .conte .spider-man{
         background-color:#B11313;
     }
-    .conte1 .iron-man img{
+    .conte .iron-man img{
         height: 330px;
         width: 230px;
     }
-    .conte1 .spider-man img{
+    .conte .spider-man img{
         height: 330px;
         width: 300px;
     }
@@ -303,14 +303,14 @@
     
     @media (max-width:320px)
     {
-        .conte1{
+        .conte{
             width: 100%;
             margin: 30px 0;
         }
     }
     @media (max-width:600px)
     {
-        .conte1{
+        .conte{
             width: 100%;
             margin: 30px 0;
         }
@@ -318,7 +318,7 @@
     
     @media (max-width:700px)
     {
-        .conte1{
+        .conte{
             width: 80%;
             margin: 30px 0;
         }
@@ -326,7 +326,7 @@
     
     @media (max-width:900px)
     {
-        .conte1{
+        .conte{
             width: 40%;
             margin: 30px 20px;
         }
