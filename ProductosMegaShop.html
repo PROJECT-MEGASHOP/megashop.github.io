@@ -4,90 +4,229 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
-    <title>PRODUCTOS</title>
-    <link rel="stylesheet" href="css/producto.css">
+    <title>PRODUCTOS - ¡Todo lo que necesitas en un solo touch!</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://kit.fontawesome.com/5f69ad0e9f.js" crossorigin="anonymous"></script>
 
- <link rel = "preconnect" href = "https://fonts.gstatic.com">
-<link href = "https://fonts.googleapis.com/css2? family = Limelight & display = swap" rel = "hoja de estilo ">
-
+    <link rel="stylesheet" href="css/productos.css">
     
 </head>
-    <body style="background-color:#e2e2e2;"></body>
-    <div class="wrap">
-        <style >
-    h1{
-        color:black;
-        text-align: center;
-    }
-    h3{
-        color: black;
-    }
-    </style>
+<body class="bg-rose">
+    <!-- Nav-principal -->  
+    <nav class="navbar navbar-expand-xl navbar-togglable  fixed-top">
+        <div class="container">
+  
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html">
+              <img src="img/logo-rose.png" width="100">
+          </a>
     
-        <h1>Elige tu producto </h1>
-        <div class="storew.rapper">
-            <div class="category_list">
-                <a href="#" id="categoryItem" category='all'>TODO</a>
-                <a href="#" id="categoryItem" category='Ropa'>ROPA </a>
-                <a href="#" id="categoryItem" category='Zapatos'>CALZADO</a>
-                <a href="#" id="categoryItem" category='Accesorios'>ACCESORIOS</a>
-                <a href="#" id="categoryItem" category='Belleza'>BELLEZA</a>
-                <a href="#" id="categoryItem" category='Lenceria'>LENCERIA</a>
-                <a href="#" id="categoryItem" category='Bolsos'>BOLSOS</a>
-            </div>
-            <section class="products-list">
-                   <div class="product-item"category="Ropa">
-                       <img src="abrigo2.jfif" alt="">
-                       <br><br>
-                       <a href="#">ABRIGO CUADROS</a>  
-                       <h3>S/.50.00</h3> 
-                   </div>
-                   <b></b>
-                   <div class="product-item"category="Ropa">
-                    <img src="abrigoh.jfif" alt="">
-                    <br><br>
-                    <a href="#">SACO NEGRO SAVAGE</a> 
-                    <h3>S/.50.00</h3>  
-                </div>
-                <b></b>
-                <div class="product-item"category="Ropa">
-                    <img src="blusa.jpg" alt="">
-                    <br><br>
-                    <a href="#">BLUSA PINK</a>   
-                    <h3>S/.50.00</h3> 
-                </div>
-                <b></b>
-                <div class="product-item"category="Ropa">
-                    <img src="abrigom.jfif" alt="">
-                    <br><br>
-                    <a href="#">ABRIGO GRIS HUMO</a>   
-                    <h3>S/.50.00</h3> 
-                </div>
-                <b></b>
-                <div class="product-item"category="Ropa">
-                    <img src="chompa.jpg" alt="">
-                    <br><br>
-                    <a href="#">CHOMPA HELENA</a> 
-                    <h3>S/.50.00</h3>   
-                </div>
-                <b></b>
-                <div class="product-item"category="Ropa">
-                    <img src="chompa.jfif" alt="">
-                    <br><br>
-                    <a href="#">CHOMPA NIEVE</a>  
-                    <h3>S/.50.00</h3>  
-                </div>
-                <b></b>
-                <div class="product-item"category="Ropa">
-                    <img src="chompa.jpg" alt="">
-                    <br><br>
-                    <a href="#">Abrigo</a>
-                    <h3>S/.50.00</h3>   
-                </div>
+          <!-- Menu -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Option-menu -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+  
+            <!-- Social -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item-divider">
+                <span class="nav-link">
+                  <span></span>
+                </span>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-facebook"></i> 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-instagram"></i> 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-twitter"></i> 
+                </a>
+              </li>
+            </ul>
 
-            </section>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <!-- Search -->
+                <form class="" action="#">
+                <div class="input-group input-group-underlined" style="display: flex !important;"> 
+                  <input class="form-controls form-control-underlined" type="text" placeholder="¿Qué estas buscando?" aria-label="Search" aria-describedby="button-search">
+                  <div class="input-group-append ml-0">
+                    <button class="btn btn-underlined py-0" id="button-search" type="button"> 
+                        <i class="fas fa-search" style="color: #e2e2e2; font-size: 18px;"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+                </li>
+            </ul>
+            
+
+            <!-- Option-menu -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item ">
+                <a href="#" class="nav-link">
+                    ACERCA DE
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  PRODUCTOS
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  BLOG/NOTICIA
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  CONTACTANOS
+                </a>
+              </li>
+            </ul>
+            <!-- Icons -->
+              <ul class="list-inline mb-0 d-none d-lg-block">
+                <li class="list-inline-item mr-3">
+                    <a class="text-dark text-hover-primary" href="#" data-toggle="modal" data-target="#loginModal">
+                      <i class="far fa-user" style="color: #bbbbbb;"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item mr-3">
+                    <a class="text-dark text-hover-primary position-relative" href="wishlist.html">
+                      <i class="far fa-heart" style="color: #bbbbbb;"></i>   
+                    </a>
+                </li>
+                <li class="list-inline-item position-relative mr-3">
+                    <a class="text-dark text-hover-primary" href="#" data-toggle="modal" data-target="#sidebarCart">
+                      <i class="fas fa-shopping-bag" style="color: #bbbbbb;"></i>
+                    </a>
+                </li>
+              </ul>
+  
+          </div> <!-- / Option-menu -->
+    
+        </div> <!-- / nav-principal-->    
+      </nav>
+
+      <section class="section section-top section-full">
+
+       <br>
+       <br>
+       <br>
+       
+       <br>
+       
+       <br>
+       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div> <!-- / .container -->
+    </section>
+    
+</body>
+</head>
+<body>
+       
+    <br><br>
+        <h1>¡Todo lo que necesitas en un solo touch!</h1>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div class="conte ">
+            <div class="card ropa">
+                <img src="abrigo.jfif" alt="">
+            </div>
+            <br> <br>
+            <div class="informacion">
+                <h3>ABRIGO PINK</h3>
+                <br>
+               <p class="fecha">
+                   Fecha Salidad:01/3/2021
+               </p>
+            </div>
+            <br>
+            <div class="precio">
+                <div class="box-precio">
+                    <span class="precio1"><strike>S/35.00</strike></span>
+                <span class="precio2"><b>S/35.00</b></span>
+                </div>
+                <span class="shoping"><i class="fas fa-cart-plus"></i></span>
+            </div>
         </div>
+        
+            
+        <div class="conte ">
+            <div class="card ropa">
+                <img src="abrigo.jfif" alt="">
+            </div>
+            <br> <br>
+            <div class="informacion">
+                <h3>ABRIGO PINK</h3>
+                <br>
+               <p class="fecha">
+                   Fecha Salidad:01/3/2021
+               </p>
+            </div>
+            <br>
+            <div class="precio">
+                <div class="box-precio">
+                    <span class="precio1"><strike>S/35.00</strike></span>
+                <span class="precio2"><b>S/35.00</b></span>
+                </div>
+                <span class="shoping"><i class="fas fa-cart-plus"></i></span>
+            </div>
+        </div>
+        
+       <div class="conte">
+            <div class="card spider-man">
+                <img src="abrigoh.jfif" alt="">
+            </div>
+            <br>
+            <div class="informacion">
+                <h3>ABRIGO</h3>
+                <br>
+               <p class="fecha">
+                   Fecha Salidad:03/20/2021
+               </p>
+            </div>
+            <br>
+            <div class="precio">
+                <div class="box-precio">
+                <span class="precio1"><strike>S/55.00</strike> </span>
+                <span class="precio2"><b>S/55.00</b></span>
+                </div>
+                <span class="shoping"><i class="fas fa-cart-plus"></i></span>
+            </div>
+        </div>
+        <div class="conte">
+            <div class="card iron-man">
+                <img src="abrigo2.jfif" alt="">
+            </div>
+            <br>
+            <div class="informacion">
+                <h3>ABRIGO GREEN</h3>
+                <br>
+               <p class="fecha">
+                   Fecha Salidad:01/15/2021
+               </p>
+            </div>
+            <br>
+            <div class="precio">
+                <div class="box-precio">
+                    <span class="precio1"><strike>S/45.00</strike> </span>
+                    <span class="precio2"><b>S/45.00</b></span>
+                </div>
+                <span class="shoping"><i class="fas fa-cart-plus"></i></span>
+            </div>
+        </div>
+          
+
     </div>
 </body>
 </html>
