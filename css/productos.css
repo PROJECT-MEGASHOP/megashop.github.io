@@ -34,9 +34,9 @@ body{
 }
 
 .conte{
-    height: 510px;
+    height: 310px;
     width: 25%;
-    box-shadow:0 0 7px #111 ;
+    box-shadow:0 0 7px rgb(17, 17, 17) ;
     margin: 30px 30px;
 }
 .conte .card{
