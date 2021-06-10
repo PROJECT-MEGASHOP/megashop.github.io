@@ -1,3 +1,30 @@
+*{
+    font-family: 'Montserrat', sans-serif;   
+}
+.bg-rose{
+    background: #F0FFFF;
+}
+.text-rose{
+    color:#FFA500;
+}
+
+
+.navbar-nav .nav-link {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-transition-property: color;
+    transition-property: color;
+}
+
+
+
 
 body{
     display: flex;
@@ -112,4 +139,11 @@ body{
         width: 40%;
         margin: 30px 20px;
     }
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;   
+}
+.bg-light{
+ background-color:#e9a963 !important;
 }
