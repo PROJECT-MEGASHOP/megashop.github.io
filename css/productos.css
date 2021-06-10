@@ -34,7 +34,7 @@ body{
 }
 
 .conte{
-    height: 330px;
+    height: 500px;
     width: 330px;
     box-shadow:0 0 7px rgb(17, 17, 17) ;
     margin: 30px 30px;
@@ -42,7 +42,7 @@ body{
 .conte .card{
     height: 200px;
     width: 100%;
-    margin-bottom: 190px;
+    margin-bottom: 170px;
 }
 .card img{
     margin: auto;
@@ -70,12 +70,12 @@ body{
     width: 330px;
 }
 .informacion{
-    height: 100px;
+    height: 90px;
     width: 100%;
 }
 .informacion h1{
     font-family: sans-serif;
-    font-size: 2.2em;
+    font-size: 1.2em;
     text-align: center;
     color: #333;
     margin-bottom: 10px;
