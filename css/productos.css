@@ -113,10 +113,3 @@ body{
         margin: 30px 20px;
     }
 }
-
-*, *::before, *::after {
-    box-sizing: border-box;   
-}
-.bg-light{
- background-color:#e9a963 !important;
-}
