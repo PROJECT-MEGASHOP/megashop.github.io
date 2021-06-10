@@ -63,22 +63,22 @@ body{
 }
 .conte .iron-man img{
     height: 330px;
-    width: 430px;
+    width: 330px;
 }
 .conte .spider-man img{
     height: 330px;
-    width: 410px;
+    width: 330px;
 }
 .informacion{
-    height: 80px;
+    height: 100px;
     width: 100%;
 }
 .informacion h1{
     font-family: sans-serif;
-    font-size: 1.2em;
+    font-size: 2.2em;
     text-align: center;
     color: #333;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
 }
 .informacion p{
     text-align: center;
@@ -145,5 +145,5 @@ body{
     box-sizing: border-box;   
 }
 .bg-light{
- background-color:#e9a963 !important;
+ background-color:#F5F5DC !important;
 }
