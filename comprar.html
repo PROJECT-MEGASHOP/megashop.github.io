@@ -7,16 +7,17 @@
     <title>MEGASHOP - ¡Todo lo que necesitas en un solo touch!</title>
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="assets/css/vendor.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-
+    <link rel="stylesheet" href="css/compra.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body class="bg-rose">
     <!-- Nav-principal -->  
-    <nav class="navbar navbar-expand-xl navbar-togglable  fixed-top">
+    <nav class="navbar navbar-expand-xl navbar-togglable  ">
         <div class="container">
   
           <!-- Logo -->
@@ -87,7 +88,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="Productos.html" class="nav-link text-rose">
+                <a href="#" class="nav-link text-rose">
                   PRODUCTOS
                 </a>
               </li>
@@ -133,76 +134,248 @@
         </div> <!-- / nav-principal-->    
       </nav>
 
-      <section class="section section-top section-full">
-
-        <!-- Cover -->
-        <div class="bg-cover" style="background-image: url(img/portada1.png);"></div>
-  
-      <!-- Content -->
-      <div class="container">
-        <div class="row align-items-center text-center">
-          <div class="col-md-8 col-lg-7">
-
-            <!-- Preheading -->
-            <p class="font-weight-medium text-xs  text-uppercase text-white text-muted" data-toggle="animation" data-animation="fadeUp" data-animation-order="0" data-animation-trigger="load">
-              Tendencia
-            </p><br>
-            
-            <!-- Heading -->
-            <h1 class="mb-4 line-heigt" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
-              Otoño - Invierno
-            </h1>
-
-            <!-- Subheading -->
-            <p class="lead text-white text-muted mb-5" data-toggle="animation" data-animation="fadeUp" data-animation-order="2" data-animation-trigger="load">
-              "Todo lo que necesitas en un solo TOUCH"
-            </p>
-
-            <!-- Button -->
-            <p class="mb-0" data-toggle="animation" data-animation="fadeUp" data-animation-order="3" data-animation-trigger="load">
-              <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-rose">
-                Ver colección
-              </a>
-            </p>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-     <!-- Footer-->
-     <footer>
-      <!-- Services block-->
-      <div class="py-5 py-lg-6 bg-gray-100">
-        <div class="container text-center">
+     <!-- hero --> <br>
+    <section>
+        <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-sm-6 py-4 service-column">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-              </svg>  
-              <div class="service-text">
-                <p class="text-muted font-weight-light text-sm mb-0">Lima - Perú</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 py-4 service-column">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-              </svg>        
-              <div class="service-text">
-                <p class="text-muted font-weight-light text-sm mb-0">contactanos@megashop.com</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 py-4 service-column">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-              </svg>
-              <div class="service-text">
-                <p class="text-muted font-weight-light text-sm mb-0">(51) 956 235 458</p>
-              </div>
+            <div class="col text-center">
+              <h1>Checkout</h1>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+  
+      <section class="no-overflow pt-0 compra">
+        <div class="container">
+          <div class="row gutter-4 justify-content-between">
+  
+  
+            <div class="col-lg-8">
+  
+              <!-- delivery -->
+              <div class="row align-items-end mb-2">
+                <div class="col-md-6">
+                  <h2 class="h3 mb-0"><span class="text-muted">01.</span> Address</h2>
+                </div>
+                <div class="col-md-6 text-md-right">
+                  <a class="eyebrow unedrline action" data-toggle="modal" data-target="#addresses">My Addresses</a>
+                </div>
+              </div>
+              <div class="row gutter-1 mb-6">
+                <div class="form-group col-md-6">
+                  <label for="firstName">First Name</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="">
+                </div>
+                <div class="form-group col">
+                  <label for="companyName">Company Name</label>
+                  <input type="text" class="form-control" id="companyName" placeholder="">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="country">Country</label>
+                  <input type="text" class="form-control" id="country" placeholder="">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="city">City</label>
+                  <input type="text" class="form-control" id="city" placeholder="">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="postcode">Postcode</label>
+                  <input type="text" class="form-control" id="postcode" placeholder="">
+                </div>
+                <div class="form-group col-md-8">
+                  <label for="address">Address</label>
+                  <input type="text" class="form-control" id="address" placeholder="">
+                </div>
+              </div>
+  
+              <!-- payment -->
+              <div class="row align-items-end mb-2">
+                <div class="col-md-6">
+                  <h2 class="h3 mb-0"><span class="text-muted">02.</span> Payment</h2>
+                </div>
+                <div class="col-md-6 text-md-right">
+                  <a class="eyebrow unedrline action" data-toggle="modal" data-target="#payments">My payment methods</a>
+                </div>
+              </div>
+              <div class="row gutter-1 mb-6">
+                <div class="col-12 pb-1">
+                  <ul class="nav nav-tabs lavalamp" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Credit Card</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">PayPal</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-12">
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                      <div class="row gutter-1">
+                        <div class="form-group col-12">
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon1"><i class="icon-credit-card"></i></span>
+                            </div>
+                            <input type="tel" class="form-control" placeholder="Card Number" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="nameOnCard">Name on Card</label>
+                          <input type="text" class="form-control" id="nameOnCard" placeholder="">
+                        </div>
+                        <div class="form-group col-md-3">
+                          <label for="month">Month</label>
+                          <input type="date" class="form-control" id="month">
+                        </div>
+                        <div class="form-group col-md-3">
+                          <label for="cvv">CVV</label>
+                          <input type="password" class="form-control" id="cvv" placeholder="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                      <div class="row gutter-1">
+                        <div class="form-group col-md-8">
+                          <input type="email" class="form-control" id="mail" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-4">
+                          <a href="#!" class="btn btn-block btn-secondary">Pay with paypal</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="custom-control custom-switch mb-2">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                    <label class="custom-control-label text-muted" for="customSwitch1">Billing address same as delivery.</label>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- shipping -->
+              <div class="row align-items-end mb-2">
+                <div class="col-md-6">
+                  <h2 class="h3 mb-0"><span class="text-muted">03.</span> Shipping</h2>
+                </div>
+              </div>
+              <div class="row gutter-1">
+                <div class="col-md-6">
+                  <div class="custom-control custom-choice">
+                    <input type="radio" name="choice-shipping" class="custom-control-input" id="choice-shipping-1">
+                    <label class="custom-control-label text-dark" for="choice-shipping-1">
+                      <span class="d-flex justify-content-between mb-1 eyebrow">Standard <span class="text-muted">Free</span></span>
+                      Estimated 10-20 days shipping. Lorem Ipsum is simply dummy text of the printing and typesetting.
+                    </label>
+                    <span class="choice-indicator"></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="custom-control custom-choice">
+                    <input type="radio" name="choice-shipping" class="custom-control-input" id="choice-shipping-2">
+                    <label class="custom-control-label text-dark" for="choice-shipping-2">
+                      <span class="d-flex justify-content-between mb-1 eyebrow">Express <span class="text-muted">$49</span></span>
+                      Estimated 10-20 days shipping. Lorem Ipsum is simply dummy text of the printing and typesetting.
+                    </label>
+                    <span class="choice-indicator"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <aside class="col-lg-4">
+              <div class="row">
+  
+                <!-- order preview -->
+                <div class="col-12 ">
+                  <div class="card card-data  nuevocolor">
+                    <div class="card-header py-2 px-3 ">
+                      <div class="row align-items-center ">
+                        <div class="col ">
+                          <h3 class="fs-18 mb-0">Your Cart</h3>
+                        </div>
+                        <div class="col text-right">
+                          <a href="cart.html" class="underline eyebrow">Edit</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <ul class="list-group list-group-line">
+                        <li class="list-group-item d-flex justify-content-between text-dark align-items-center">
+                          Analog Magazine Rack x2
+                          <span>$240</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between text-dark align-items-center">
+                          Closca Helmet
+                          <span>$132</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between text-dark align-items-center">
+                          Sigg Water Bottle x2
+                          <span>$46</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- order summary -->
+                <div class="col-12 mt-1  ">
+                  <div class="card card-data  nuevocolor">
+                    <div class="card-header py-2 px-3 nuevocolor">
+                      <div class="row align-items-center">
+                        <div class="col">
+                          <h3 class="fs-18 mb-0">Order Summary</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <ul class="list-group list-group-minimal">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Subtotal
+                          <span>$418</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Shipping
+                          <span>Free</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          Discount
+                          <span>-25%</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-footer py-2 nuevocolor">
+                      <ul class="list-group list-group-minimal">
+                        <li class="list-group-item d-flex justify-content-between align-items-center text-dark fs-18">
+                          Total
+                          <span>$313,5</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- place order -->
+                <div class="col-12 mt-1">
+                  <a href="#!" class="btn btn-primary btn-lg btn-block cajadepa">Place Order</a>
+                </div>
+  
+              </div>
+            </aside>
+  
+          </div>
+        </div>
+      </section> 
+
+     <!-- Footer-->
+     <footer>
+      
       <!-- Main block - menus, subscribe form-->
       <div class="pt-5 text-muted bg-light "> 
         <div class="container">
