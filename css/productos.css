@@ -2,11 +2,13 @@
     font-family: 'Montserrat', sans-serif;   
 }
 .bg-rose{
-    background: #fff5f7;
+    background: #F0FFFF;
 }
 .text-rose{
     color:#FFA500;
 }
+
+
 .navbar-nav .nav-link {
     position: relative;
     padding-top: 1rem;
@@ -21,6 +23,9 @@
     transition-property: color;
 }
 
+
+
+
 body{
     display: flex;
     justify-content: center;
@@ -30,8 +35,8 @@ body{
 
 .conte{
     height: 530px;
-    width: 430px;
-    box-shadow:0 0 0px;
+    width: 330px;
+    box-shadow:0 0 7px rgb(17, 17, 17) ;
     margin: 30px 30px;
 }
 .conte .card{
@@ -45,24 +50,24 @@ body{
 }
 .conte .stromtroper img{
     height: 330px;
-    width: 430px;
+    width: 330px;
 }
 .conte .stromtroper{
-     background-color: #F0FFFF;
+     background-color: #111;
 }
 .conte .iron-man{
-    background-color: #ffff;
+    background-color: #6A0C0B;
 }
 .conte .spider-man{
-    background-color:#ffff;
+    background-color:#B11313;
 }
 .conte .iron-man img{
     height: 330px;
-    width: 430px;
+    width: 330px;
 }
 .conte .spider-man img{
     height: 330px;
-    width: 430px;
+    width: 330px;
 }
 .informacion{
     height: 90px;
@@ -131,14 +136,13 @@ body{
 @media (max-width:900px)
 {
     .conte{
-        width: 80%;
+        width: 40%;
         margin: 30px 20px;
     }
 }
 
 *, *::before, *::after {
-    box-sizing:border-box; 
-    width: 100%; 
+    box-sizing: border-box;   
 }
 .bg-light{
  background-color:#F5F5DC !important;
