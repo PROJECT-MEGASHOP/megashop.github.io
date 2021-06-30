@@ -258,47 +258,47 @@
       width: 430px;
   }
   .informacion{
-      height: 90px;
-      width: 100%;
+    height: 90px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 2.2em;
+    text-align:left ;
+    color: #333;
+    margin-bottom: 14px;
+  } 
+  .informacion h3{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
   }
-  .informacion h1{
-      font-family:'Montserrat', sans-serif;
-      font-size: 1.2em;
-      text-align: center;
-      color: #333;
-      margin-bottom: 10px;
-  }
-  .informacion p{
-      text-align: center;
-      font-family: 'Montserrat', sans-serif;
-      font-size: .9em;
-      color: #555;
-  }
-  .precio {
-      height:50px;
-      width: 85%;
-      margin: 30px;
-      font-family: 'Montserrat', sans-serif;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  .box-precio{
-      width: 80px;
-  }
-   .precio1{
-      color: blue;
-      font-size: .8em;
-  }
-  .precio .precio2{
-      font-size: 1.5em;
-      color: red;
-  }
-  .shoping{
-      font-size: 1.5em;
-      color: #555;
-      
-  }
+
+}
+.informacion p{
+    text-align:left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9em;
+    color: #555;
+    margin-bottom: 12px;
+}
+.precio {
+    height:50px;
+    width: 85%;
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: left;
+    
+}
+.box-precio{
+    width: 80px;
+    box-align: left;
+}
+ .precio1{
+    color: #e9a93e;;
+    font-size: 1.3em;
+    text-align: left;
+}
   
   @media (max-width:320px)
   {
