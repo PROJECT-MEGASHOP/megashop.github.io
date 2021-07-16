@@ -16,12 +16,18 @@
 
     <link rel="stylesheet" href="dist/jquery.flipster.min.css">
 
+
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="dist/jquery.flipster.min.js"></script>
+
+    <!-- Swiper-->
+   <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/vendor/swiper/css/swiper.min.css">
+
 </head>
 <body class="">
     <!-- Nav-principal -->
+    <header class="header header-absolute">
     <nav class="navbar navbar-expand-xl navbar-togglable  fixed-top bg-rose" id="menu-prin">
         <div class="container">
 
@@ -146,117 +152,7 @@
         </div> <!-- / nav-principal-->
       </nav>
 
-
-
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-          <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <section class="section section-top section-full bg-rose">
-        <!-- Cover -->
-        <div class="first-slide bg-cover" style="background-image: url(img/portada1.png);"></div>
-        <!-- Content -->
-        <div class="container">
-          <div class="row align-items-center text-center">
-            <div class="col-md-8 col-lg-7">
-              <!-- Heading -->
-              <h1 class="mb-4 line-heigt" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
-                Otoño - Invierno
-              </h1>
-
-              <!-- Subheading -->
-              <p class="lead text-white text-muted mb-5" data-toggle="animation" data-animation="fadeUp" data-animation-order="2" data-animation-trigger="load">
-                "Todo lo que necesitas en un solo TOUCH"
-              </p>
-
-              <!-- Button -->
-              <p class="mb-0" data-toggle="animation" data-animation="fadeUp" data-animation-order="3" data-animation-trigger="load">
-                <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-rose">
-                  Ver colección
-                </a>
-              </p>
-
-            </div>
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-      </section>
-          </div>
-          <div class="carousel-item">
-            <section class="section section-top section-full bg-white">
-        <!-- Cover -->
-        <div class="second-slide bg-cover" style="background-image: url(img/portada1.png);"></div>
-        <!-- Content -->
-        <div class="container">
-          <div class="row align-items-center text-center">
-            <div class="col-md-8 col-lg-7">
-
-              <!-- Heading -->
-              <h1 class="mb-4 line-heigt" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
-                  El arte del maquillaje
-              </h1>
-
-              <!-- Subheading -->
-              <p class="lead text-white text-muted mb-5" data-toggle="animation" data-animation="fadeUp" data-animation-order="2" data-animation-trigger="load">
-                "Destaca labios y ojos a la vez, elige"
-              </p>
-
-              <!-- Button -->
-              <p class="mb-0" data-toggle="animation" data-animation="fadeUp" data-animation-order="3" data-animation-trigger="load">
-                <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-rose">
-                  Descubre mas
-                </a>
-              </p>
-
-            </div>
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-      </section>
-          </div>
-          <div class="carousel-item">
-            <section class="section section-top section-full bg-gray">
-        <!-- Cover -->
-        <div class="third-slide bg-cover" style="background-image: url(img/portada1.png);"></div>
-        <!-- Content -->
-        <div class="container">
-          <div class="row align-items-center text-center">
-            <div class="col-md-8 col-lg-7">
-
-              <!-- Heading -->
-              <h1 class="mb-4 line-heigt" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
-                Para toda ocasión
-              </h1>
-
-              <!-- Subheading -->
-              <p class="lead text-white text-muted mb-5" data-toggle="animation" data-animation="fadeUp" data-animation-order="2" data-animation-trigger="load">
-                "Todo lo que necesitas en un solo TOUCH"
-              </p>
-
-              <!-- Button -->
-              <p class="mb-0" data-toggle="animation" data-animation="fadeUp" data-animation-order="3" data-animation-trigger="load">
-                <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-rose">
-                  Comprar
-                </a>
-              </p>
-
-            </div>
-          </div> <!-- / .row -->
-        </div> <!-- / .container -->
-      </section>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+</header>
 
     <div class="section-menu flex open">
   		<div class="nav-close" data-label="CLOSE" id="nav-close-inner">
@@ -315,6 +211,51 @@
 
 
         </div>
+
+
+        <!-- Slider main container-->
+    <div class="swiper-container home-slider bg-rose" style="height: 95vh; min-height: 600px;">
+      <!-- Additional required wrapper-->
+      <div class="swiper-wrapper">
+        <!-- Slides-->
+        <div class="swiper-slide bg-cover bg-cover-right" style="background-image: url('img/home-1-plain.jpg');">
+          <div class="container-fluid px-lg-6 px-xl-7 h-100">
+            <div class="row h-100 align-items-center" data-swiper-parallax="-500">
+              <div class="col-lg-6">
+                <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light">Our all-time favourites</p>
+                <h2 class="display-1 mb-3" style="line-height: 1">Otoño - Invierno</h2>
+                <p class="text-muted mb-5">"Todo lo que necesitas en un solo TOUCH"</p><a class="btn btn-rose" href="#">Ver colección</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide bg-cover" style="background-image: url('img/home-2-plain.jpg');">
+          <div class="container-fluid px-lg-6 px-xl-7 h-100">
+            <div class="row h-100 justify-content-center align-items-center text-center" data-swiper-parallax="-500">
+              <div class="col-lg-6">
+                <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light">El arte del maquillaje</p>
+                <h2 class="display-1 mb-3" style="line-height: 1">"Destaca labios y ojos a la vez, elige"</h2><a class="btn btn-rose" href="#">Descubre mas</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide bg-cover" style="background-image: url('img/home-1-plain.jpg');">
+          <div class="container-fluid px-lg-6 px-xl-7 h-100">
+            <div class="row h-100 align-items-center" data-swiper-parallax="-500">
+              <div class="col-lg-6 offset-lg-6">
+                <p class="subtitle letter-spacing-3 mb-3 text-primary font-weight-light mb-4">Para toda ocasión</p>
+                <h2 class="display-1 mb-5" style="line-height: 1">"Todo lo que necesitas en un solo TOUCH"</h2><a class="btn btn-rose" href="#">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-nav d-none d-lg-block">
+        <div class="swiper-button-prev" id="homePrev"></div>
+        <div class="swiper-button-next" id="homeNext"></div>
+      </div>
+    </div>
 
 
     <section class="section" id="aboutous">
@@ -750,5 +691,8 @@
     <script src="js/menu.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Swiper Carousel                       -->
+   <script src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/vendor/swiper/js/swiper.min.js"></script>
+   <script src="https://demo.bootstrapious.com/varkala/1-2-1/js/sliders-init.1db6fb07.js"></script>
   </body>
 </html>
