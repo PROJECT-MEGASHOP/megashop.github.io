@@ -1,0 +1,88 @@
+.boo{ 
+   text-align: center;
+   border: 3px outset pink;
+   width: 520px;
+   height: 620px;
+   background-color:pink;
+   justify-self: start;
+   box-shadow: 1px 1px 1px black;
+}
+.vop{
+    width: 620px;
+    height: 450px;
+    text-align: center;
+}
+.koo{ 
+    text-align: center;
+    border: 3px outset skyblue;
+    width: 260px;
+    height: 310px;
+    background-color:skyblue;
+    justify-self: start;
+    box-shadow: 1px 1px 1px black;
+ }
+ .lop{
+     width: 200px;
+     height: 200px;
+     text-align: center;
+ }
+ .loo{ 
+    text-align: center;
+    border: 3px outset white;
+    width: 260px;
+    height: 310px;
+    background-color:white;
+    justify-self: start;
+    box-shadow: 1px 1px 1px black;
+ }
+ .kip{
+     width: 200px;
+     height: 200px;
+     text-align: center;
+ }
+ .ip{ 
+    text-align: center;
+    border: 3px outset white;
+    width: 260px;
+    height: 310px;
+    background-color:white;
+    justify-self: start;
+    box-shadow: 1px 1px 1px black;
+ }
+ .butp{
+     width: 200px;
+     height: 200px;
+     text-align: center;
+ }
+ .nose{ 
+    text-align: center;
+    border: 3px outset skyblue;
+    width: 260px;
+    height: 310px;
+    background-color:skyblue;
+    justify-self: start;
+    box-shadow: 1px 1px 1px black;
+ }
+ .ño{
+     width: 200px;
+     height: 200px;
+     text-align: center;
+ }
+ .c1{
+     width: 900px;
+     height: 900px;
+     position: relative;
+    left: 50px;
+}
+.c2{
+        width: 1150px;
+        height: 1150px;
+        position: relative;
+    left: 100px;
+ }
+.c4{ 
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 1px;
+}
