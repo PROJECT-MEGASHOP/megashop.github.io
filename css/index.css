@@ -525,3 +525,11 @@ h1 {
 .segundo{
   visibility: hidden;
 }
+
+@media (max-width: 767.98px)
+.display-1 {
+    font-size: 3.6rem !important;
+}
+h2 {
+  font-size: 3.6rem !important;
+}
