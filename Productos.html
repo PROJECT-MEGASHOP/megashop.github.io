@@ -13,15 +13,17 @@
   <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
     <script src="https://kit.fontawesome.com/5f69ad0e9f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/carrito_compras.css">
-
-    <!-- Swiper-->
-    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/vendor/swiper/css/swiper.min.css">
     <!-- Custom Scrollbar-->
     <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/css/custom.0a822280.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="./css/productos.css">
+     <link rel="stylesheet" href="./css/productos.css">
+
+
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -241,7 +243,7 @@
 
   <div class="col-md-4">
          <div class="card mb-4 stromtroper">
-          <a href="carrito-compras.html">
+          <a href="#" data-toggle="modal" data-target="#quickView">
             <img class="card-img-top" height="350px" src="https://ae01.alicdn.com/kf/HTB1NnJ5bsfrK1Rjy0Fmq6xhEXXaW/Blusa-de-manga-corta-con-dibujo-de-cuadros-para-mujer-blusa-de-4-colores-con-cuello.jpg"></a>
          </div>
          <div class="informacion">
@@ -569,13 +571,108 @@
     <li><a href="pagina5.html">5</a></li>
   </ul>
 </section>
-
-
 </div>
 </div>
 </section>
 
-
+<div class="modal fade quickview" id="quickView" tabindex="-1" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <button class="close close-absolute close-rotate" type="button" data-dismiss="modal" aria-label="Close">
+              X
+            </button>
+            <div class="modal-body quickview-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="detail-carousel">
+                    <div class="product-badge badge badge-primary">Fresh</div>
+                    <div class="product-badge badge badge-dark">Sale</div>
+                    <div class="swiper-container quickview-slider swiper-container-initialized swiper-container-horizontal" id="quickViewSlider">
+                      <!-- Additional required wrapper-->
+                      <div class="swiper-wrapper" style="transform: translate3d(-538px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="4" style="width: 538px;"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-5-gray.jpg" alt="Modern Jacket 5"></div>
+                        <!-- Slides-->
+                        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 538px;"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-1-gray.jpg" alt="Modern Jacket 1"></div>
+                        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 538px;"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-2-gray.jpg" alt="Modern Jacket 2"></div>
+                        <div class="swiper-slide" data-swiper-slide-index="2" style="width: 538px;"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-3-gray.jpg" alt="Modern Jacket 3"></div>
+                        <div class="swiper-slide" data-swiper-slide-index="3" style="width: 538px;"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-4-gray.jpg" alt="Modern Jacket 4"></div>
+                        <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="4" style="width: 538px;"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-5-gray.jpg" alt="Modern Jacket 5"></div>
+                      <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 538px;"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-1-gray.jpg" alt="Modern Jacket 1"></div></div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                    <!-- <div class="swiper-thumbs" data-swiper="#quickViewSlider">
+                      <button class="swiper-thumb-item detail-thumb-item mb-3 active"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-1-gray.jpg" alt="Modern Jacket 0"></button>
+                      <button class="swiper-thumb-item detail-thumb-item mb-3"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-2-gray.jpg" alt="Modern Jacket 1"></button>
+                      <button class="swiper-thumb-item detail-thumb-item mb-3"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-3-gray.jpg" alt="Modern Jacket 2"></button>
+                      <button class="swiper-thumb-item detail-thumb-item mb-3"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-4-gray.jpg" alt="Modern Jacket 3"></button>
+                      <button class="swiper-thumb-item detail-thumb-item mb-3"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-5-gray.jpg" alt="Modern Jacket 4"></button>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="col-lg-6 p-lg-5">
+                  <h2 class="mb-4 mt-4 mt-lg-1">Push-up Jeans</h2>
+                  <div class="d-flex flex-column flex-sm-row align-items-sm-center justify-content-sm-between mb-4">
+                    <ul class="list-inline mb-2 mb-sm-0">
+                      <li class="list-inline-item h4 font-weight-light mb-0">$65.00</li>
+                      <li class="list-inline-item text-muted font-weight-light">
+                        <del>$90.00</del>
+                      </li>
+                    </ul>
+                    <div class="d-flex align-items-center text-sm">
+                      <ul class="list-inline mr-2 mb-0">
+                        <li class="list-inline-item mr-0"><i class="fa fa-star text-primary"></i></li>
+                        <li class="list-inline-item mr-0"><i class="fa fa-star text-primary"></i></li>
+                        <li class="list-inline-item mr-0"><i class="fa fa-star text-primary"></i></li>
+                        <li class="list-inline-item mr-0"><i class="fa fa-star text-primary"></i></li>
+                        <li class="list-inline-item mr-0"><i class="fa fa-star text-gray-300"></i></li>
+                      </ul><span class="text-muted text-uppercase">25 reviews</span>
+                    </div>
+                  </div>
+                  <p class="mb-4 text-muted">Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+                  <form id="buyForm_modal" action="#">
+                    <div class="row">
+                      <div class="col-sm-6 col-lg-12 detail-option mb-4">
+                        <h6 class="detail-option-heading">Size <span>(required)</span></h6>
+                        <div class="dropdown bootstrap-select"><select class="selectpicker" name="size" data-style="btn-selectpicker">
+                          <option value="value_0">Small</option>
+                          <option value="value_1">Medium</option>
+                          <option value="value_2">Large</option>
+                        </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-selectpicker" data-toggle="dropdown" role="combobox" aria-owns="bs-select-1" aria-haspopup="listbox" aria-expanded="false" title="Small"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Small</div></div> </div></button><div class="dropdown-menu "><div class="inner show" role="listbox" id="bs-select-1" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
+                      </div>
+                      <div class="col-sm-6 col-lg-12 detail-option mb-5">
+                        <h6 class="detail-option-heading">Type <span>(required)</span></h6>
+                        <label class="btn btn-sm btn-outline-primary detail-option-btn-label" for="material_0_modal"> Hoodie
+                          <input class="input-invisible" type="radio" name="material" value="value_0" id="material_0_modal" required="">
+                        </label>
+                        <label class="btn btn-sm btn-outline-primary detail-option-btn-label" for="material_1_modal"> College
+                          <input class="input-invisible" type="radio" name="material" value="value_1" id="material_1_modal" required="">
+                        </label>
+                      </div>
+                    </div>
+                    <div class="input-group w-100 mb-4">
+                      <input class="form-control form-control-lg detail-quantity" name="items" type="number" value="1">
+                      <div class="input-group-append flex-grow-1">
+                        <button class="btn btn-dark btn-block" type="submit"> <i class="fa fa-shopping-cart mr-2"></i>Add to Cart</button>
+                      </div>
+                    </div>
+                    <div class="row mb-4">
+                      <div class="col-6"><a href="#"> <i class="far fa-heart mr-2"></i>Add to wishlist </a></div>
+                      <div class="col-6 text-right">
+                        <ul class="list-inline mb-0">
+                          <li class="list-inline-item mr-2"><a class="text-dark text-hover-primary" href="#"><i class="fab fa-facebook-f"> </i></a></li>
+                          <li class="list-inline-item"><a class="text-dark text-hover-primary" href="#"><i class="fab fa-twitter"> </i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <ul class="list-unstyled">
+                      <li><strong>Category:</strong> <a class="text-muted" href="#">Jeans</a></li>
+                      <li><strong>Tags:</strong> <a class="text-muted" href="#">Leisure</a>, <a class="text-muted" href="#">Elegant</a></li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
@@ -722,6 +819,42 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+    <!-- Swiper Carousel                       -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+$('#quickView').on('shown.bs.modal', function (e) {
+       quickViewSlider = new Swiper('#quickViewSlider', {
+           mode: 'horizontal',
+           loop: true,
+           on: {
+               slideChangeTransitionStart: highlightThumb
+           }
+       });
+   })
+
+   $('#quickView').on('hidden.bs.modal', function (e) {
+        quickViewSlider.destroy();
+    })
+
+
+    function highlightThumb() {
+        var sliderId = this.$el.attr('id');
+        var thumbs = $('.swiper-thumbs[data-swiper="#' + sliderId + '"]')
+        // if thumbs for this slider exist
+        if (thumbs.length > 0) {
+            thumbs.find(".swiper-thumb-item.active").removeClass('active');
+            thumbs.find(".swiper-thumb-item").eq(this.realIndex).addClass('active');
+        }
+    }
+
+    $('.swiper-thumb-item').on('click', function (e) {
+        e.preventDefault();
+        var swiperId = $(this).parents('.swiper-thumbs').data('swiper');
+        $(swiperId)[0].swiper.slideToLoop($(this).index())
+    });
+</script>
+
 
 </body>
 </html>
